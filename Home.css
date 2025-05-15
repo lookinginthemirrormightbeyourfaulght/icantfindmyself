@@ -1,0 +1,56 @@
+.content {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+}
+
+p {
+  color: transparent;
+}
+
+@media (max-width: 760px) {
+  .content {
+    position: absolute;
+    width: 20%;
+    height: fit-content;
+    background-color: white;
+  }
+
+  .content-first {
+    top: 500px;
+    left: 140px;
+  }
+
+  .content-second {
+    top: 400px;
+    left: 250px;
+  }
+  .content-third {
+    top: 100px;
+    left: 20px;
+  }
+  .content-fourth {
+    top: 700px;
+    left: 312px;
+  }
+  .content-fifth {
+    top: 600px;
+    left: 290px;
+  }
+  .content-six {
+    top: 800px;
+    left: 80px;
+  }
+  .content-seven {
+    top: 0;
+    left: 278px;
+  }
+  .content-eight {
+    top: 200px;
+    left: 90px;
+  }
+  .content-nine {
+    top: 210px;
+    left: 300px;
+  }
+}
